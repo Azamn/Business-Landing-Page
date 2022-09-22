@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: Montserrat;
+    margin: 0%;
+    padding: 0%;
+    background-color: #fdfeff;
+}
+
+.nav-section-main{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    background-color:#636c79;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    margin-top: 2%;
+}
+
+.logo{
+    margin-left: 4% ;
+}
+
+.nav-bar{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-list{
+    /* border: 1px solid white; */
+    margin-left: 20%;    
+}
+
+.list{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.list:hover{
+    cursor: pointer;
+}
+
+
+.list-item{
+    color: #a7acb3;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+.list-item:hover{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+@media screen and (max-width:1092px) {
+    .nav-bar-list{
+        display: none;
+        /* flex-direction: column; */
+    } 
+}
+
+
+.lets-talk{
+    margin-right: 4%;
+}
+
+.lets-talk-btn{
+    background: transparent;
+    height: 35px;
+    width: 120px;
+    color: #a7acb3;
+    font-size: 1rem;
+    border: 1px solid #a7acb3;
+}
+
+.lets-talk-btn:hover{
+    cursor: pointer;
+    color: #fff;
+    border-color: #fff;
+}
+
+.nav-main-content{
+    height: 80vh;
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7rem;
+    padding-bottom: 40px;
+}
+
+.left-main-content img{
+    height: 90%;
+    border-radius: 3px;
+}
+
+.right-main-content{
+    margin-top: -5%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    justify-content: space-around;
+}
+
+.right-main-content h1{
+    font-size: 3.6rem;
+    color: #fff;
+}
+
+
+.right-main-content p{
+    margin-top: -18%;
+    line-height: 2rem;
+    color: #a7acb3;
+    font-size: 1rem;
+    margin-bottom: 7%;
+}
+
+.email-lets-talk-data{
+    height: 55px;
+    width: 85%;
+    margin-top: -15%;
+    border: 1px solid rgba(21, 16, 7, 0.911);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+}
+
+ .email-icon{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.email-icon img{
+    height: 30px;
+}
+
+.email input{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 165px;
+    outline: none;
+    align-items: center;
+}
+
+.email input::placeholder{
+    font-size: 1rem;
+}
+
+.email-lets-talk{
+    margin-top: 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.email-lets-talk button{
+    height: 40px;
+    width: 130px;
+    background-color: #8bb7a2;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.email-lets-talk button:hover{
+    cursor: pointer;
+    background-color: #636c79;
+}
+
+@media screen and (max-width:1092px) {
+    .nav-main-content{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 5%;
+        margin-left: 7%;
+        margin-right: 7%;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    .left-main-content img{
+        height: 50%;
+        border-radius: 3px;
+        width: 100%;
+    }
+
+    .right-main-content h1{
+        font-size: 2.5rem;
+    }
+    .email-lets-talk-data{
+        width: 100%;
+    }
+
+    .email input{
+        height: 22px;
+        width: 90%;
+    }
+
+    .email-lets-talk{
+        padding-right: 60px;
+    }
+
+    .email-lets-talk button{
+        height: 40px;
+        width: 100px;
+    }
+}
+
+/* ---------- main section ---------- */
+
+.main-section{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.connect-your-business{
+    /* border: 1px solid #1464d3; */
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.connect-business-heading{
+    /* border: 1px solid blue; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.connect-business-heading h1{
+    font-family: "Raleway", "sans-serif";
+    font-size: 3rem;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    
+}
+
+.business-stats-data{
+    margin-top: 2%;
+    /* border: 1px solid rgb(33, 148, 64); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.business-stats-data p{
+    font-family: "Raleway", "sans-serif";
+    font-weight: 600;
+}
+
+.business-stats-data h1{
+   text-align: center;
+   margin-bottom: -7%;
+}
+
+.stats-image{
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-image img{
+    position: absolute;
+    height: 92%;
+}
+
+@media screen and (max-width:1092px) {
+    .connect-your-business{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .connect-business-heading h1{
+        font-size: 1.7rem;
+    }
+
+    .stats-image{
+        height: 55vh;
+        /* margin-top: 2%; */
+        margin-left: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .stats-image img{
+       position: absolute;
+       height: 50%;
+       width: 90%;
+    }
+}
+
+/* ------------------ starts care section --------------- */
+
+.care-easy{
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.care-easy-heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.care-easy-heading h1{
+    font-family: "Raleway", "sans-serif";
+    font-size: 3.2rem;
+    margin-bottom: 0%;
+    margin-top: 0%; 
+}
+
+.care-data{
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1092px) {
+
+    .care-easy{
+        margin-top: 10px;
+    }
+
+    .care-easy-heading h1{
+        font-size: 2.2rem;
+    }
+    
+}
+
+/* ----------------- care first ------------ */
+
+.care-first{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.care-first-left-section{
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.care-first-left-heading h1{
+    font-family: "Raleway", "sans-serif";
+    font-size: 3.2rem;
+}
+
+.care-first-left-para p{
+    margin-top: -2%;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #707171;
+}
+
+.care-first-left-button button{
+    margin-top: 2%;
+    height: 50px;
+    width: 170px;
+    background: #8bb7a2;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+.care-first-left-button button:hover{
+    cursor: pointer;
+}
+
+.care-first-right-image{
+    height: 100vh;
+    width: 100%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+}
+
+.care-first-right-image img{
+    height: 90%;
+}
+
+
+@media screen and (max-width:1092px) {
+    .care-first{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .care-first-right-image{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .care-first-right-image img{
+        height: 50%;
+    }
+
+    .care-first-left-section{
+       margin-top: -300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .care-first-left-heading h1{
+        font-size: 2.1rem;
+    }
+}
+
+ /* --------------  care second ----------- */
+
+.care-second{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.care-second-left-image{
+    height: 100%;
+    width: 100%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+}
+
+.care-second-left-image img{
+    height: 90%;
+}
+
+
+.care-second-right-section{
+    margin-top: -8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.care-second-right-heading h1{
+    font-family: "Raleway", "sans-serif";
+    font-size: 3.2rem;
+}
+
+.care-second-right-para p{
+    margin-top: -2%;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #707171;
+}
+
+.care-second-right-button button{
+    margin-top: 2%;
+    height: 50px;
+    width: 170px;
+    background: #8bb7a2;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+.care-second-right-button button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1092px) {
+    .care-second{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding-bottom: 50px;
+    }
+
+    .care-second-left-image{
+        height: 80%;
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .care-second-right-heading h1{
+      
+        font-size: 2.2rem;
+    }
+    
+}
+
+/* ------ meet our greet ------- */
+
+.meet-our-greet{
+    margin-top: -4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.meet-our-greet-first{
+    margin-left: 7%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.meet-our-greet-first-heading{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+.meet-our-greet-first-heading h1{
+    width: 100%;
+    font-family: "Raleway", "sans-serif";
+    font-size: 3.2rem;
+    margin: -0%;
+}
+
+.meet-our-greet-first-para p{
+    font-size: 1.3rem;
+    font-family: "Montserrat", "sans-serif";
+    line-height: 2rem;
+    margin-top: 0.1;
+    margin-right: 7%;
+    color: #707171;
+}
+
+.meet-our-greet-card{
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 6.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.card img{
+    height: 580px;
+    width: 400px;
+}
+
+.card h1{
+    font-family: "Raleway", "sans-serif";
+}
+
+.card p{
+    font-family: "Montserrat", "sans-serif";
+    line-height: 1.7rem;
+    color: #707171;
+}
+
+.meet-our-greet-button{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet-our-greet-button button{
+    height: 45px;
+    width: 170px;
+    background: #8bb7a2;
+    font-family: "Montserrat", "sans-serif";
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.meet-our-greet-button button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1092px) {
+
+    .meet-our-greet-first{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meet-our-greet-first-heading h1{
+        font-size: 2.2rem;
+    }
+
+    .meet-our-greet-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        display: flex;
+        flex-wrap:wrap ;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card img{
+        height: 500px;
+        width: 330px;
+    }
+    
+}
+
+/* --------------- footer-section ---------- */
+
+.footer-section{
+    margin-top: 4%;
+    padding-bottom: 2%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #10181d;
+}
+
+.footer-logo{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 2.5%;
+    margin-right: 6%;
+    justify-content: space-between;
+
+}
+
+.footer-logo img{
+    height: 45px;
+}
+
+.links{
+    display: flex;
+    gap: 2rem;
+}
+
+.icon{
+    height: 50px;
+    color: #fff;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.blank{
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.footer-main{
+    margin-top: 2%;
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+    justify-content: space-between;
+}
+
+.footer-main .footer-headings{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Raleway", "sans-serif";
+    font-weight: 500;
+}
+.footer-main .footer-headings:hover{
+    cursor: auto;
+}
+
+.footer-main p{
+    color: #54595d;
+    font-family: "Raleway", "sans-serif";
+}
+
+.footer-main p:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1092px) {
+    .footer-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
