@@ -2,9 +2,9 @@
 
 I'm Azam Shaikh, a laravel backend Developer, and Passionate to become a Full Stack Developer.
 
-## Project Name : **Hosting Landing Page**
+## Project Name : **Business Landing Page**
 
-In this project i have created a Hosting Landing Page. And i have learnt a lot of things of like how to use flex and how css makes life easier, and i have also learnt  about media query to make mobile responsive page in this project.
+In this project i have created a Business Landing Page. And i have learnt a lot of things of like how to use flex and how css makes life easier, and i have also learnt  about media query to make mobile responsive page in this project.
 
 </br>
 
@@ -15,7 +15,7 @@ In this project i have created a Hosting Landing Page. And i have learnt a lot o
 
 ### My Project is looking like :
 
-![Web Site Image](./screenshot/hosting-landing-page.png)
+![Web Site Image](./screenshot/business-landing-page.png)
 
 ## Time taken to finish this project
 
@@ -23,4 +23,4 @@ In this project i have created a Hosting Landing Page. And i have learnt a lot o
 
 ### You can Check it Live on Below Link :
 
-[Project Live Link](https://azam-developer-landing-page.netlify.app/)
+[Project Live Link](https://azam-business-landing-page.netlify.app/)
